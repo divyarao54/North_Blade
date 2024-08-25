@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/North_Blade/static/css/main.233d3728.css",
-    "main.js": "/North_Blade/static/js/main.1645b7f0.js",
+    "main.js": "/North_Blade/static/js/main.8120d908.js",
     "static/js/453.6a2c3122.chunk.js": "/North_Blade/static/js/453.6a2c3122.chunk.js",
     "static/media/NepalPack.jpg": "/North_Blade/static/media/NepalPack.74c61253fb55042d9754.jpg",
     "static/media/SwissPack.jpg": "/North_Blade/static/media/SwissPack.7765a0518edafa2469b1.jpg",
@@ -24,11 +24,11 @@
     "static/media/activityPoints.png": "/North_Blade/static/media/activityPoints.09a78d829712391506b9.png",
     "index.html": "/North_Blade/index.html",
     "main.233d3728.css.map": "/North_Blade/static/css/main.233d3728.css.map",
-    "main.1645b7f0.js.map": "/North_Blade/static/js/main.1645b7f0.js.map",
+    "main.8120d908.js.map": "/North_Blade/static/js/main.8120d908.js.map",
     "453.6a2c3122.chunk.js.map": "/North_Blade/static/js/453.6a2c3122.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.233d3728.css",
-    "static/js/main.1645b7f0.js"
+    "static/js/main.8120d908.js"
   ]
 }
