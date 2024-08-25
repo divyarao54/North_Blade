@@ -35,7 +35,7 @@ function App() {
       ) : (   
         <Routes>
           <Route exact path="/" element={<Navigate to="/home" />} />
-          <Route exact path="/North_Blade" element={<Navigate to="/home"/>}/>
+          <Route exact path="/North_Blade/" element={<Navigate to="/home"/>}/>
           <Route exact path="/home" element={<LandingPage />} />
           <Route exact path="/packages" element={<CataloguePage />} />
           <Route path="/packages/:packageId" element={<DestinationPage/>}/>
