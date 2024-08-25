@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.steps-items{
+    /* Group 633072 */
+    position: relative;
+    width: 1216px;
+    height: 841px;
+    left: 157px;
+    /*top: 1160px;*/
+
+
+    padding-top: 84px;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 109px;
+}
+
+.steps-sec{
+    /* Group 633071 */
+    position: relative;
+    width: 540px;
+    height: 757px;
+    display: inline-block;
+    padding-top: 88px;
+    /*left: 157px;*/
+    /*top: 1244px;*/
+
+
+}
+
+.steps-sec-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 50px 50px 0px;
+    gap: 50px;
+    position: relative;
+    width: 567px;
+    height: 810px;
+    /*left: 55.972%;*/
+    /*top: 1160px;*/
+}
+
+.steps-img {
+    position: relative;
+    width: 427px;
+    height: 589px;
+    left: /*157px*//*10.9027%*/0;
+    top: /*1244px*/0;
+    border-radius: 20px;
+}
+
+.steps-gif {
+    position: absolute;
+    width: 386px;
+    height: 386px;
+    left: 259px/*24.55722%*/;
+    top: 500px/*30.52%*/;
+
+
+}
+
+.steps-title {
+    width: 517px;
+    height: 170px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 85px;
+    color: #484848;
+    text-align: left;
+}
+
+.steps-points {
+    width: 45px;
+    height: 393px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+}
+
+.step-ins {
+    list-style: none;
+    margin-top: 12px;
+    left: 0;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.steps-lines {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: left;
+    color: #484848;
+}
+
+.stepsBtn {
+    justify-content: center;
+    padding: 10px 30px;
+    width: 192px;
+    height: 47px;
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none; 
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+}
+
+.stepsBtn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}

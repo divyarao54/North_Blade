@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.NavbarWhiteItems {
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    background: rgb(255, 255, 255);
+}
+
+.nav-white-title {
+    position: absolute;
+    width: 136px;
+    height: 32px;
+    left: 83px;
+    top: 0px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.nav-white-img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 24px;
+    top: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: /*50px*/9.98%;
+    position: relative;
+    width: /*501px*/34.79167%;
+    height: 22px;
+    left: 62.01388889%;
+    top: 0px;
+    list-style: none;
+}
+
+.nav-white-links {
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.nav-white-links.active {
+    text-decoration: underline;
+    color: #FFC267;
+}

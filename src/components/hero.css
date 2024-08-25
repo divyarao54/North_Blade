@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.hero {
+    width: 100%;
+    height: 1037px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    object-fit: cover;
+    /* image 39 */
+
+    position: absolute;
+    height: 1037px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.hero-text{
+    /* Frame 3 */
+
+/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 50px;
+
+    position: absolute;
+    width: 52.778%;
+    height: 751px;
+    left: 41px;
+    top: 143px;
+
+    background: rgba(0, 0, 0, 0.2);
+
+}
+
+.hero-title{
+    /* Unlock Authentic Experiences */
+
+width: 52.778%;
+height: 384px;
+text-align: left;
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: 900;
+font-size: 15vh;
+line-height: 128px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.hero-para{
+    /* Discover the world like never before to create unforgettable memories that make you want to revisit the moment for years to come */
+
+width: 99%;
+height: 120px;
+text-align: left;
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+
+.hero-btn{
+    /* Frame 2 */
+
+    /* Auto layout */
+    border: none;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+
+    width: 250px;
+    height: 47px;
+
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.hero-btn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}
+
+.parallax {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 1037px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.parallax::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}

@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.pack-sections{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    text-align: left;
+    position: relative;
+    width: 782px;
+    /*height: 3778.02px;*/
+    left: 203px;
+    top: 1157px;
+    height: auto;
+
+}
+
+.activity-box{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 50px;
+    top: 0px;
+}
+
+.activity-text{
+    /* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 50px;
+gap: 50px;
+padding: 55px 75px 75px;
+
+background: #F9F4EF;
+border-radius: 20px;
+
+/*position: absolute;
+width: 730px;*/
+width: 632px;
+height: 754px;
+left: 28px;
+/*top: 0px;*/
+
+
+}
+
+.pack-title{
+    /* Frame 14 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 630px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+    /* Activities */
+
+    width: 517px;
+    height: 64px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+
+    color: #484848;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.pack-lines{
+    /* Line 5 */
+
+    width: 630px;
+    height: 0px;
+
+    border: 1px solid #333333;
+
+    /* Inside auto layout */
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.pack-activity-section{
+    /* Frame 40 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+width: 307.33px;
+height: /*490px*/auto;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.pack-icons{
+    /* Frame 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+width: 53.33px;
+height: 490px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.pack-activity-list{
+    /* Frame 39 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 204px;
+    height: 490px;
+    text-align: left;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.activity-items{
+    /* Sightseeing */
+
+    width: 204px;
+    height: 40px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+
+    color: #484848;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.itinerary-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    top: 0px;
+}
+
+.itinerary-text{
+    /* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 55px 75px 75px;
+gap: 50px;
+/*top: 854px;*/
+background: #F9F4EF;
+border-radius: 20px;
+/*position: absolute;*/
+width: 632px;
+/*height: 2273px;*/
+left: 0px;
+
+
+
+}
+
+.itinerary-title{
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 630px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Itinerary */
+
+width: 517px;
+height: 64px;
+
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+color: #484848;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.day-group{
+    /* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+padding-bottom: 3vh;
+
+width: 627px;
+height: 153px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+}
+
+.itinerary-days{
+    /* Frame 24 */
+
+/* Auto layout */
+/*display: flex;
+flex-direction: row;*/
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 64px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 22 */
+
+/* Auto layout */
+
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 64px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Day 1: */
+
+width: 64px;
+height: 40px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+/* identical to box height, or 200% */
+
+color: #484848;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.itinerary-titles{
+    /* Arrival in Kathmandu Arrive at Tribhuvan International Airport. Transfer to the hotel. Evening stroll in Thamel. */
+
+width: 513px;
+position: relative;
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 38px;
+
+color: #333333;
+
+text-align: left;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+
+.itinerary-desc{
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    left: 28px;
+    
+}
+
+.itinerary-desc-item{
+    width: 500px
+}
+
+.itinerary-lines{
+    /* Line 6 */
+
+    width: 530px;
+    height: 0px;
+
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    margin-top: 120px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.booking-box{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 50px;
+    top: 0px;
+}
+
+.booking-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding: 55px 75px 75px;
+    gap: 50px;
+    /*top: 854px;*/
+    background: #F9F4EF;
+    border-radius: 20px;
+    /*position: absolute;*/
+    width: 632px;
+    height: 451px;
+    left: 28px;
+    /*top: 3497.02px;*/
+}
+
+.pack-book-text{
+    /* Embark on a journey of a lifetime to the Heart of the Himalayas with our exclusive Nepal Tour Package. From breathtaking landscapes to rich cultural heritage, experience the best of Nepal with us. Secure your adventure today! */
+
+width: 630px;
+height: 160px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+color: #484848;
+
+
+/* Inside auto layout */
+flex: none;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.book-btn{
+    /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+border: none;
+width: 349px;
+height: 47px;
+
+background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+
+flex-grow: 0;
+
+/* Book Your Vacation now */
+
+
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+}
+
+.book-btn:hover{
+    cursor: pointer;
+}
+
+.book-btn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}
+
+.pack-icon{
+    /* Frame 21 */
+
+    /* Auto layout */
+    
+
+    width: 164px;
+    height: 164px;
+
+
+
+}

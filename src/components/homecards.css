@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.card {
+    width: 400px;
+    height: 551px;
+    position: relative;
+    overflow: hidden;
+    
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    margin-right: 24px;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 50px;
+    position: relative; 
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.card-title{
+    
+
+    width: 300px;
+    height: 64px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+}
+
+.card-desc{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
+
+    width: 300px;
+    height: 240px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+    color: #FFFFFF;
+
+    text-align: left;
+
+}
+
+.card-btn{
+
+    padding: 10px 30px;
+
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+
+
+    width: 200px;
+    height: 50px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+}
+
+.card-btn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}

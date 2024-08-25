@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.footer-bg{
+    /* Rectangle 10 */
+
+    position: absolute;
+    width: 100%;
+    height: 414px;
+    left: 0px;
+    /*top: 3522px;*/
+    bottom: 0%;
+
+    background: #333333;
+
+}
+
+.footer-section-1{
+    /* Group 633058 */
+
+    position: absolute;
+    width: 177px;
+    height: 211px;
+    left: 9.65277%;
+    top: 9.1787%;
+}
+
+.footer-logo{
+    /* Mask group */
+
+    position: absolute;
+    width: 177px;
+    height: 177px;
+    left: 0%;
+}
+
+.footer-name{
+    /* North Blade */
+
+    position: absolute;
+    width: 177px;
+    height: 41px;
+    top: 80.568%;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31.2px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.footer-text{
+    /* Frame 10 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+
+    position: absolute;
+    width: 794px;
+    height: 159px;
+    left: 41.3194%;
+    top: 18.1159%;
+
+
+}
+
+.footer-section-2{
+        /* Frame 8 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 45px;
+
+    width: auto;
+    height: 159px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer-location{
+    /* Frame 11 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    /*width: 388px;*/
+    height: 25px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.footer-location-icon{
+        /* Vector */
+
+    width: 20px;
+    height: 25px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.footer-address{
+    /* North Blade Travel Co, Kingston, New York 12401 */
+
+    /*width: 358px;*/
+    height: 22px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-contact{
+    /* Frame 12 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    /*width: 138px;*/
+    height: 22px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.footer-call-icon{
+    /* Vector */
+
+    width: 20px;
+    height: 20.05px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.footer-number{
+    /* (555) 555-1234 */
+
+    /*width: 108px;*/
+    height: 22px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.footer-email{
+    /* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 240px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+  
+}
+
+.footer-mail-icon{
+    /* Icons */
+
+    /* Icons */
+
+width: 20px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.footer-email-address{
+    /* help@northbladesample.com */
+
+    /*width: 210px;*/
+    height: 22px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
+.footer-section-3{
+    /* Frame 10 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 45px;
+    top: 0%;
+    left: 57.68%;
+    width: auto;
+    height: 159px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.links{
+
+    position: relative;
+    height: 22px;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.footer-section-4{
+    /* Frame 9 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 45px;
+    width: auto;
+    height: 159px;
+    left: 80.2267%;
+    text-align: left;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;  
+}
+
+.footer-line{
+    /* Line 4 */
+
+    position: absolute;
+    width: 1350px;
+    height: 0px;
+    left: 4.8611%;
+    top: 75.36%;
+
+    border: 1px solid #C4C4C4;
+
+}
+
+.footer-rights{
+    /* @2024 North Blade Travel Co Sample, All Rights Reserved */
+
+    position: absolute;
+    width: auto;
+    height: 22px;
+    left: 35.48611%;
+    top: 85.99%;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+}

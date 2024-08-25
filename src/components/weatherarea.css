@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.wa-bg{
+    /* Rectangle 9 */
+
+    position: absolute;
+    width: 100%;
+    height: 817px;
+    left: 0px;
+    top: 3031px;
+    
+    background: #F9F4EF;
+
+}
+
+.wa-text{
+    /* Frame 5 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 50px 50px 0px;
+    gap: 50px;
+    text-align: left;
+    position: absolute;
+    width: 603px;
+    height: 577px;
+    left: 6.8056%;
+    top: 142px;
+}
+
+.wa-title{
+    /* Worried about the Weather? */
+
+    width: 553px;
+    height: 170px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 85px;
+
+    color: #484848;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.wa-desc{
+    /* When you select a package and pick your dates for travel, our site will show you the weather forecast for each of the places to be visited side-by-side to help you make the best choice possible. */
+
+    width: 583px;
+    height: 160px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    color: #484848;
+
+
+    /* Inside auto layout */
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.wa-btn{
+    /* Frame 2 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+
+    width: 410px;
+    height: 47px;
+
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+
+    /* select package to see weather */
+
+    
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.wa-btn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}
+
+.wa-collage{
+    /* Group 633056 */
+
+    position: absolute;
+    width: 319.41px;
+    height: 561px;
+    left: 801px;
+    top: 140px;
+}
+
+.wa-city{
+    /* image 46 */
+
+    position: absolute;
+    width: 257.59px;
+    height: 386.34px;
+    left: 0px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.wa-hill{
+    /* image 45 */
+
+    position: absolute;
+    width: 257.59px;
+    height: 386.48px;
+    left: 61.82px;
+    top: 174.52px;
+    border-radius: 20px;
+}
+
+.wa-gif{
+    /* Group 633057 */
+    top: 115px;
+    position: absolute;
+    width: 287px;
+    height: 287px;
+    left: 1069px;
+}
