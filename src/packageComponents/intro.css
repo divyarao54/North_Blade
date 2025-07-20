@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.intro-gif{
+    /* Rectangle */
+
+    position: absolute;
+    width: 337px;
+    height: 241px;
+    left: 93px;
+    top: 156px;
+
+}
+
+.intro-text{
+    /* Frame 11 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 20px;
+    text-align: left;
+    position: absolute;
+    width: 923px;
+    height: 285px;
+    left: 430px;
+    top: 134px;
+
+
+}
+
+.intro-title{
+    /* Pick a Destination, and Fly! */
+
+    width: 823px;
+    height: 85px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 85px;
+
+    color: #484848;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.intro-desc{
+    /* Explore our packages for various destinations for authentic and unmatched travel experiences */
+
+    width: 823px;
+    height: 80px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    color: #484848;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}

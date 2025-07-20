@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.img-group{
+
+    position: absolute;
+    width: 478px;
+    height: 629px;
+    left: 139px;
+    top: 201px;
+
+}
+
+.login-image{
+    /* image 51 */
+
+    position: absolute;
+    width: 419px;
+    height: 559px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+.img-shadow{
+    /* Rectangle 11 */
+
+    position: absolute;
+    width: 419px;
+    height: 559px;
+    left: 59px;
+    top: 70px;
+
+    background: #F9F4EF;
+    border-radius: 20px;
+    z-index: 0;
+
+}
+
+.login-text{
+    /* Frame 19 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    text-align: left;
+    position: absolute;
+    width: 531px;
+    height: 466px;
+    left: 767px;
+    top: 271px;
+}
+
+.login-title{
+    /* Login to Begin your Journey! */
+
+width: 531px;
+height: 53px;
+
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 53px;
+
+color: #484848;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.login-form-fields{
+    /* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 531px;
+height: 164px;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+
+.login-username-group{
+    /* Frame 16 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 531px;
+    height: 67px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.login-password-group{
+    /* Frame 17 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 531px;
+    height: 67px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.login-form-usr-label .login-input-pass-label{
+/* Enter email or phone number */
+
+width: 214px;
+height: 22px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #333333;
+
+left: 0;
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+
+.login-input-usr-field{
+/* Group 633062 */
+
+width: 531px;
+height: 35px;
+
+
+/* Inside auto layout */
+/*
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+*/
+
+/* Rectangle 12 */
+
+box-sizing: border-box;
+
+background: #FFFFFF;
+border: 1px solid #B3B3B3;
+border-radius: 5px;
+padding-left: 15px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px
+
+}
+
+.login-input-pass-field{
+    /* Group 633062 */
+
+    width: 531px;
+    height: 35px;
+
+
+    /* Inside auto layout */
+    /*
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    */
+
+    /* Rectangle 12 */
+
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 0;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px
+}
+
+/* email@sample.com or +123-4456-789 */
+/*
+position: absolute;
+width: 273px;
+height: 22px;
+left: 15px;
+top: 39px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;*/
+/* identical to box height */
+
+/*color: #B3B3B3;*/
+
+
+.login-buttons{
+    /* Frame 20 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 367px;
+    height: 47px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.login-submit{
+    /* Frame 2 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+
+    width: 125px;
+    height: 47px;
+
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+
+    flex-grow: 0;
+
+}
+
+.login-submit:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}
+
+.forgot-password-button{
+    /* Frame 11 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 30px;
+    gap: 10px;
+
+    width: 210px;
+    height: 47px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF9900;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #FF9900;
+
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.forgot-password-button:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}
+
+.register-page-link{
+    /* don’t have an account? Create one! */
+
+width: auto;
+height: 22px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+text-decoration-line: underline;
+text-transform: capitalize;
+
+color: #FF9900;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}

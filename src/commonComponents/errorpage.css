@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.error-box {
+    position: relative;
+    width: 1143px;
+    height: 709px;
+    left: 148px;
+    top: 163px;
+    background: #F9F4EF;
+    border-radius: 20px;
+    z-index: 1; /* Ensure this is above any background elements */
+}
+
+.error-img {
+    position: absolute;
+    width: 466px;
+    height: 709px;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+    z-index: 0; /* Lower than the .error-box */
+}
+
+.error-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 50px 50px 0px;
+    gap: 50px;
+    text-align: left;
+    position: absolute;
+    width: 567px;
+    height: 709px;
+    left: 531px;
+    top: 0;
+    z-index: 1; /* Ensure text box is above the image */
+}
+
+.error-title {
+    width: 517px;
+    height: 52px;
+    font-family: 'Playfair Display', 'serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 52px;
+    color: #484848;
+}
+
+.error-first-line, .error-desc {
+    width: 537px;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #484848;
+}
+
+.error-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    width: 510px;
+    height: 47px;
+}
+
+.to-home-btn, .to-contact-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    height: 47px;
+    border-radius: 50px;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    z-index: 2;
+}
+
+.to-home-btn {
+    width: 254px;
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.to-contact-email {
+    width: 224px;
+    background: #FFFFFF;
+    border: 1px solid #FF9900;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    color: #FF9900;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.to-home-btn:active, .to-contact-email:active {
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}

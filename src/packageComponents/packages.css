@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.package{
+    /* Group 633059 */
+
+    position: relative;
+    width: 1260px;
+    height: 830px;
+}
+
+.package-img{
+    /* image 47 */
+
+    position: absolute;
+    width: 622px;
+    height: 830px;
+    left: 0;
+    z-index: 4;
+    border-radius: 20px;
+
+}
+
+.package-box{
+    /* Rectangle 11 */
+
+    position: absolute;
+    width: 1143px;
+    height: 571px;
+    left: 13.57%;
+    top: 15.06%;
+
+    background: #F9F4EF;
+    border-radius: 20px;
+    z-index: 2;
+
+}
+
+.package-text{
+    /* Frame 4 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 50px 50px 50px 0px;
+    text-align: left;
+    position: relative;
+    width: 567px;
+    height: 571px;
+    left: 50.394%;
+    top: 0;
+}
+
+.package-title{
+    /* Nepal */
+
+    width: 517px;
+    height: 64px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    margin-bottom: 50px;
+    color: #484848;
+    z-index: 3;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.package-line{
+    /* The Heart of the Himalayas */
+
+    width: 517px;
+    height: 40px;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    margin-bottom: 50px;
+    color: #484848;
+
+    z-index: 3;
+    /* Inside auto layout */
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.package-desc{
+    /* Embark on an unforgettable journey to the Heart of the Himalayas - Nepal. Our Nepal tour Package offers an authentic experience, immersing you in the rich heritage and stunning landscapes of this enchanting country */
+
+    width: 517px;
+    height: auto;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+
+    color: #484848;
+
+    z-index: 3;
+    /* Inside auto layout */
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.package-btn{
+    /* Frame 2 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    margin-top: 50px;
+    width: auto;
+    height: 47px;
+
+    background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+
+
+    /* Select Destination */
+
+    
+    border: none;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.package-btn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}

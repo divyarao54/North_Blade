@@ -1,0 +1,24 @@
+.contacts{
+    text-align: left;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+}
+
+.contact-heading{
+    left: 100px;
+}
+
+.contact-points-section{
+    text-align: left;
+    display: flex;
+    left: 0%;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+.contact-points{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
