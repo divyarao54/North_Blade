@@ -22,6 +22,7 @@ const DestinationPage = () => {
                     tagline={thisPackage.tagline}
                     desc={thisPackage.card}
                     img={thisPackage.packcollage}
+                    mobileimg={thisPackage.mobilepackcollage}
                 />
                 <PackDetails
                     id={thisPackage.id}

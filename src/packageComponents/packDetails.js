@@ -17,7 +17,7 @@ const PackDetails = (props) => {
                 <img className="pack-icon" alt="activities" src={activityIcon} />
                         <div className="activity-text">
                             <div className="pack-title">Activities</div>
-                            <div className="pack-lines" />
+                            <div className="pack-details-lines" />
                             <div className="pack-activity-section">
                                 <img className="pack-icons" alt="activity-icons" src={activityPoints} />
                                 <div className="pack-activity-list">
@@ -37,27 +37,26 @@ const PackDetails = (props) => {
                     <img className="pack-icon" alt="itinerary" src={itineraryIcon} />
                         <div className="itinerary-text">
                             <div className="pack-title">Itinerary</div>
-                            <div className="pack-lines" />
-
-                            {props.days.map((day, index) => (
-                                <div className="day-group" key={index}>
-                                    <div className="itinerary-days">{day}:</div>
-                                    <div className="day-section">    
-                                        <div className="itinerary-titles">{props.itineraryTitles[index]}</div>
-                                        <ul className="itinerary-desc">
-                                                    {props.itineraryItems[index].map((item, idx) => (
-                                                        <li key={idx} className="itinerary-desc-item">{item}</li>
-                                                    ))}
-                                        </ul>
-                                        
-                                        {index !== lastIndex && (<div className="itinerary-lines"/>)}
-                                        
-                                        
-                                        
-                                        
+                            <div className="pack-details-lines" />
+                                {props.days.map((day, index) => (
+                                    <div className="day-group" key={index}>
+                                        <div className="itinerary-days">{day}:</div>
+                                        <div className="day-section">    
+                                            <div className="itinerary-titles">{props.itineraryTitles[index]}</div>
+                                            <ul className="itinerary-desc">
+                                                        {props.itineraryItems[index].map((item, idx) => (
+                                                            <li key={idx} className="itinerary-desc-item">{item}</li>
+                                                        ))}
+                                            </ul>
+                                            
+                                            {index !== lastIndex && (<div className="itinerary-lines"/>)}
+                                            
+                                            
+                                            
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))}
                         </div>
                 </div>
                 
@@ -67,11 +66,13 @@ const PackDetails = (props) => {
 
                         <div className="booking-frame">
                             <div className="pack-title">Book Now!</div>
-                            <div className="pack-lines" />
+                            <div className="pack-details-lines" />
                             <div className="pack-book-text">{props.bookText}</div>
-                            <Link to={`/booking/${props.id}`} style={{textDecoration:"none"}}>
-                                <button className="book-btn">BOOK YOUR VACATION NOW</button>
-                            </Link>
+                            <div className="book-btn-link">
+                                <Link to={`/booking/${props.id}`} style={{textDecoration:"none"}}>
+                                    <button className="book-btn">BOOK YOUR VACATION NOW</button>
+                                </Link>
+                            </div>
                         </div>
                 </div>
             </div>

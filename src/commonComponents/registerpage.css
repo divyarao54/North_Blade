@@ -370,3 +370,23 @@ flex: none;
 flex-grow: 0;
 
 }
+
+@media screen and (max-width: 1140px){
+    .register-img-group{
+        display: none;    
+    }
+    
+    .register-text{
+        left: 6.5%;
+        width: 80%;
+    }
+    .register-title{
+        width: 350px;
+    }
+
+    .register-input-usr-field,
+    .register-input-pass-field,
+    .register-input-re-pass-field{
+        width: 350px;
+    }
+}

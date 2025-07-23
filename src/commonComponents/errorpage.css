@@ -108,3 +108,74 @@
     box-shadow: none;
     transform: translate(4px, 4px);
 }
+
+@media screen and (max-width: 1140px) {
+    .error-box {
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 95px;
+    }
+
+    .error-img {
+        width: 120%;
+        height: auto;
+        left: -10%;
+        border-radius: 0%;
+    }
+
+    .error-text-box {
+        width: 70%;
+        
+        height: max-content;
+        left: 12.5%;
+        margin-top: 60px;
+        padding: 10px;
+        padding-bottom: 250px;
+        background-color: rgba(255, 255, 255, 0.5);
+        gap: 0px;
+    }
+
+    .error-title {
+        width: 80%;
+        padding-left: 13px;
+        padding-top: 30px;
+        /* Oopsie! Wrong Destination! */
+
+        width: 300px;
+        height: 104px;
+        font-weight: 900;
+        font-size: 39px;
+        line-height: 52px;
+
+    }
+
+    .error-first-line, .error-desc {
+        padding-left: 13px;
+        padding-top: 10px;        
+        /* You have landed at the destination of... 404 error! */
+
+        width: 300px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .error-buttons {
+        position: absolute;
+        flex-direction: column;
+        top: 75%;
+        left: -57%;
+        padding: 0px;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .to-home-btn, .to-contact-email {
+        position:absolute;
+        width: auto;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+}

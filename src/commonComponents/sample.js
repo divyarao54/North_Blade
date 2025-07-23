@@ -7,6 +7,9 @@ import SwissPack from "../images/SwissPack.png";
 import nepalCollage from "../images/nepalCollage.png";
 import italyCollage from "../images/italyCollage.png";
 import swissCollage from "../images/swissCollage.png";
+import nepalCollageMobile from "../images/nepalCollageMobile.png";
+import italyCollageMobile from "../images/italyCollageMobile.png";
+import swissCollageMobile from "../images/swissCollageMobile.png";
 
 const destinations = [
         {
@@ -18,6 +21,7 @@ const destinations = [
             tagline: "The Heart of the Himalayas",
             card: ["Embark on an unforgettable journey to the Heart of the Himalayas - Nepal.", " Our Nepal Tour Package offers an authentic experience, immersing you in the rich heritage and stunning landscapes of this enchanting country."],
             packcollage: nepalCollage,
+            mobilepackcollage: nepalCollageMobile,
             days: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9"],
             itinerarytitles: ["Arrival in Kathmandu", "Kathmandu Sightseeing", "Drive to Pokhara", "Pokhara Exploration", "Drive to Chitwan National Park", "Chitwan National Park", "Return to Kathmandu", "Visit Lumbhini (Optional)", "Departure"],
             itineraryitems: [
@@ -42,6 +46,7 @@ const destinations = [
             tagline: "The Essence of La Dolce Vita",
             card: ["Discover the essence of La Dolce Vita with our Italy Tour Package.", " From iconic landmarks to hidden gems, experience the rich tapestry of history, art, and culinary delights that Italy has to offer."],
             packcollage: italyCollage,
+            mobilepackcollage: italyCollageMobile,
             days: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10"],
             itinerarytitles: ["Arrival in Rome", "Rome Sightseeing", "Rome to Florence", "Florence to Tuscany", "Florence to Venice", "Venice Exploration", "Venice to Milan", "Milan to Amalfi Coast", "Amalfi Coast Exploration", "Departure"],
             itineraryitems: [
@@ -67,6 +72,7 @@ const destinations = [
             tagline: "The Jewel of the Alps",
             card: ["Explore the Jewel of the Alps with our Switzerland Tour Package.", "Experience the stunning beauty of serene lakes, majestic mountains, and charming alpine villages."],
             packcollage: swissCollage,
+            mobilepackcollage: swissCollageMobile,
             days: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12"],
             itinerarytitles: ["Arrival in Zurich", "Zurich to Lucerne", "Lucerne Exploration", "Lucerne to Interlaken", "Jungfraujoch Excursion", "Interlaken to Zermatt", "Zermatt Exploration", "Zermatt to Geneva", "Geneva Exploration", "Geneva to Montreux", "Montreux Exploration", "Departure"],
             itineraryitems: [

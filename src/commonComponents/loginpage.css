@@ -379,3 +379,25 @@ flex: none;
 flex-grow: 0;
 
 }
+
+@media screen and (max-width: 1140px) {
+    .img-group{
+        display: none;
+    }
+    
+    .login-text{
+        left: 0px;
+        width: 400px;
+        padding: 30px;
+        top: 100px
+    }
+    .login-title{
+        width: 350px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .login-input-usr-field,
+    .login-input-pass-field{
+        width: 350px;
+    }
+}
