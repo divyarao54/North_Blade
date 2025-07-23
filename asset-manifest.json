@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/North_Blade/static/css/main.ebe263ce.css",
-    "main.js": "/North_Blade/static/js/main.63cb2df1.js",
+    "main.css": "/North_Blade/static/css/main.f1928494.css",
+    "main.js": "/North_Blade/static/js/main.085ee7be.js",
     "reactPlayerYouTube.js": "/North_Blade/static/js/reactPlayerYouTube.983692ab.chunk.js",
     "reactPlayerSoundCloud.js": "/North_Blade/static/js/reactPlayerSoundCloud.ab3af77d.chunk.js",
     "reactPlayerVimeo.js": "/North_Blade/static/js/reactPlayerVimeo.a6e79c9d.chunk.js",
@@ -22,12 +22,15 @@
     "static/media/swissCollage.png": "/North_Blade/static/media/swissCollage.bf6ae5e783c383657004.png",
     "static/media/italyPack.png": "/North_Blade/static/media/italyPack.b5428ed5a761c24b25ca.png",
     "static/media/NepalPack.png": "/North_Blade/static/media/NepalPack.8fe637516cd981447aa8.png",
+    "static/media/nepalCollageMobile.png": "/North_Blade/static/media/nepalCollageMobile.8fec0be6893e76bb3b75.png",
     "static/media/nepalCard.png": "/North_Blade/static/media/nepalCard.e5ac0068a6adced64d2a.png",
     "static/media/registerImage.png": "/North_Blade/static/media/registerImage.29c850f7f05f9e3048df.png",
     "static/media/loginImage.png": "/North_Blade/static/media/loginImage.05e151e7094a78589b04.png",
     "static/media/swissCard.png": "/North_Blade/static/media/swissCard.7fc2faa528d9a54ba81f.png",
     "static/media/italyCard.jpg.png": "/North_Blade/static/media/italyCard.jpg.7cea05f39df1c2edcde8.png",
+    "static/media/italyCollageMobile.png": "/North_Blade/static/media/italyCollageMobile.0bee3ca4eb1e95dff385.png",
     "static/media/SwissPack.png": "/North_Blade/static/media/SwissPack.8d22d4734a067af5b591.png",
+    "static/media/swissCollageMobile.png": "/North_Blade/static/media/swissCollageMobile.a95d457ed33b19552122.png",
     "static/media/waRainy.png": "/North_Blade/static/media/waRainy.13e94b2cb4a06422ce2a.png",
     "static/media/heroImage.png": "/North_Blade/static/media/heroImage.7a3b0b88004e08f3aaed.png",
     "static/media/waSunny.png": "/North_Blade/static/media/waSunny.02543e88311c84b51575.png",
@@ -37,8 +40,8 @@
     "static/media/steps.png": "/North_Blade/static/media/steps.50cb2f84af6c825b4ae8.png",
     "static/media/activityPoints.png": "/North_Blade/static/media/activityPoints.597c0dfe712fb5357cda.png",
     "index.html": "/North_Blade/index.html",
-    "main.ebe263ce.css.map": "/North_Blade/static/css/main.ebe263ce.css.map",
-    "main.63cb2df1.js.map": "/North_Blade/static/js/main.63cb2df1.js.map",
+    "main.f1928494.css.map": "/North_Blade/static/css/main.f1928494.css.map",
+    "main.085ee7be.js.map": "/North_Blade/static/js/main.085ee7be.js.map",
     "reactPlayerYouTube.983692ab.chunk.js.map": "/North_Blade/static/js/reactPlayerYouTube.983692ab.chunk.js.map",
     "reactPlayerSoundCloud.ab3af77d.chunk.js.map": "/North_Blade/static/js/reactPlayerSoundCloud.ab3af77d.chunk.js.map",
     "reactPlayerVimeo.a6e79c9d.chunk.js.map": "/North_Blade/static/js/reactPlayerVimeo.a6e79c9d.chunk.js.map",
@@ -56,7 +59,7 @@
     "453.41e762eb.chunk.js.map": "/North_Blade/static/js/453.41e762eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebe263ce.css",
-    "static/js/main.63cb2df1.js"
+    "static/css/main.f1928494.css",
+    "static/js/main.085ee7be.js"
   ]
 }
