@@ -14,7 +14,7 @@ const BookingPage = () =>{
     const thisPackage = destinations.find(dest => dest.id === packageId);
         
     return(
-        <div style={{position:"relative", height:"auto",display: "flex", flexDirection: "column", /*overflow: "hidden",*/ gap: "1750px"}}>
+        <div style={{position:"relative", height:"auto",display: "flex", flexDirection: "column", overflow: "hidden", gap: "1750px"}}>
             <div style={{paddingBottom: "2.5rem", display: "flex", flexDirection: "column"}}>
                 <NavBarWhite/>
                 <BookIntro
