@@ -1,3 +1,6 @@
 ﻿# North_Blade
 Google Page Speed Insights:
-<img width="510" height="204" alt="NB_Page_SpeedCheck" src="https://github.com/user-attachments/assets/b0eb63b9-9203-4426-bd1e-90a49052cc65" />
+<br>
+<img width="571" height="378" alt="image" src="https://github.com/user-attachments/assets/9488f4fe-ebcb-42ec-ab5d-28b8acefcd92" />
+
+<img width="225" height="218" alt="image" src="https://github.com/user-attachments/assets/b5f4debe-3bf5-4388-87fe-5af29c69dc6a" />
