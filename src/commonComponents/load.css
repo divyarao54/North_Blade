@@ -29,9 +29,19 @@
 }
 
 .load-text{
-    left: 30.5%;
+    left: 44.5%;
 } 
 
 .load-gif{
-    left: 15%;
+    left: 40%;
+}
+
+@media screen and (max-width: 1140px) {
+    .load-text{
+        left: 30.5%;
+    }
+    .load-gif{
+        left: 15%;
+    }
+    
 }
