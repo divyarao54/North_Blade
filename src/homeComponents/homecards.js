@@ -8,7 +8,7 @@ const HomeCards = (props) => {
             <div className='card-text'>
                 <div className='card-title'>{props.title}</div>
                 <div className='card-desc'>{props.desc}</div>
-                <Link to={`/packages/${props.id}`} style={{textDecoration:"none"}}>
+                <Link to={`/NBpackages/${props.id}`} style={{textDecoration:"none"}}>
                     <button className='card-btn'>LEARN MORE</button>
                 </Link>
             </div>

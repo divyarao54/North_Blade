@@ -275,6 +275,7 @@ color: #FFFFFF;
 order: 4;
 }
 
+
 @media screen and (max-width: 1140px) {
     .book-icon,
     .wallet-icon,
@@ -283,7 +284,7 @@ order: 4;
     }
 
     .book-sections{
-        left: 95%;
+        left: 350px;
     }
 
     .weather-box{

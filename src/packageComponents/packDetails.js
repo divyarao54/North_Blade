@@ -69,7 +69,7 @@ const PackDetails = (props) => {
                             <div className="pack-details-lines" />
                             <div className="pack-book-text">{props.bookText}</div>
                             <div className="book-btn-link">
-                                <Link to={`/booking/${props.id}`} style={{textDecoration:"none"}}>
+                                <Link to={`/NBbooking/${props.id}`} style={{textDecoration:"none"}}>
                                     <button className="book-btn">BOOK YOUR VACATION NOW</button>
                                 </Link>
                             </div>

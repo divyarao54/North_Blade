@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import NavBar from "../commonComponents/navbar";
 import Hero from "../homeComponents/hero";
-import heroImage from '../images/heroImage.png'; 
+import heroImage from '../images/heroImage.jpg'; 
 import Steps from '../homeComponents/steps';
 import HomeCards from "../homeComponents/homecards";
 import destinations from '../commonComponents/sample';
@@ -13,9 +13,9 @@ import '../styles/landing.css'
 
 
 const LandingPage = () => {
-    /*useEffect(()=>{
+    useEffect(()=>{
         window.scrollTo(0,0);
-      },[])*/
+      },[])
     return(
         
             <div className='footer-gap'>

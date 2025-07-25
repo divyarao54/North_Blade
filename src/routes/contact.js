@@ -4,7 +4,7 @@ import Footer from "../commonComponents/footer";
 
 const ContactPage = () => {
     return(
-        <div style={{position:"relative", minHeight:"300vh",display: "flex", flexDirection: "column", overflow: 'hidden'}}>
+        <div style={{position:"relative", minHeight:"150vh",display: "flex", flexDirection: "column", overflow: 'hidden'}}>
             <div style={{display: "flex", flexDirection: "column", position: "relative", gap: "50px"}}>
                 <NavBarWhite />
                 <Contacts />

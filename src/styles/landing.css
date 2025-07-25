@@ -13,7 +13,7 @@
 
 .footer-gap{
         position:relative;
-        min-height:710vh;
+        min-height:770vh;
         display: flex; 
         flex-direction: column; 
         overflow: hidden;

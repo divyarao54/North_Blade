@@ -34,16 +34,16 @@ function App() {
         <LoadingPage />
       ) : (   
         <Routes>
-          <Route exact path="/" element={<Navigate to="/home" />} />
-          <Route exact path="/North_Blade/" element={<Navigate to="/home"/>}/>
-          <Route exact path="/home" element={<LandingPage />} />
-          <Route exact path="/packages" element={<CataloguePage />} />
-          <Route path="/packages/:packageId" element={<DestinationPage/>}/>
-          <Route exact path="/about" element={<AboutUs/>}/>
-          <Route exact path="/contact" element={<ContactPage />} />
-          <Route exact path="/login" element={<LoginPage />} />
-          <Route exact path='/register' element={<RegisterPage/>}/>
-          <Route path='/booking/:packageId' element={<BookingPage/>}/>
+          <Route exact path="/" element={<Navigate to="/NBhome" />} />
+          <Route exact path="/North_Blade/" element={<Navigate to="/NBhome"/>}/>
+          <Route exact path="/NBhome" element={<LandingPage />} />
+          <Route exact path="/NBpackages" element={<CataloguePage />} />
+          <Route path="/NBpackages/:packageId" element={<DestinationPage/>}/>
+          <Route exact path="/NBabout" element={<AboutUs/>}/>
+          <Route exact path="/NBcontact" element={<ContactPage />} />
+          <Route exact path="/NBlogin" element={<LoginPage />} />
+          <Route exact path='/NBregister' element={<RegisterPage/>}/>
+          <Route path='/NBbooking/:packageId' element={<BookingPage/>}/>
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>
         )}
