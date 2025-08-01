@@ -14,10 +14,10 @@ const ErrorComponent = () => {
                 <div className="error-desc">Do search again by going to our home page or feel free to contact us via email if you think we’ve made a mistake!</div>
 
                 <div className="error-buttons">
-                    <Link to="/home" style={{ textDecoration: "none" }}>
+                    <Link to="/North_Blade/NBhome" style={{ textDecoration: "none" }}>
                         <button className="to-home-btn">GO TO HOME PAGE</button>
                     </Link>
-                    <Link to="/contact" style={{ textDecoration: "none" }}>
+                    <Link to="/North_Blade/NBcontact" style={{ textDecoration: "none" }}>
                         <button className="to-contact-email">CONTACT US ON EMAIL</button>
                     </Link>
                 </div>

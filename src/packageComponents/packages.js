@@ -16,7 +16,7 @@ const PackageList = (props) =>{
 
                     {props.desc.map((desc, index) => (<div className="package-desc" key={index}>{desc}</div>))}
 
-                    <Link to={`/NBpackages/${props.id}`} style={{textDecoration:"none"}}>
+                    <Link to={`/North_Blade/NBpackages/${props.id}`} style={{textDecoration:"none"}}>
                         <button className="package-btn">SELECT DESTINATION</button>
                     </Link>
                 </div>

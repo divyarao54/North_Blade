@@ -1,22 +1,22 @@
 export const menuItems = [
     {
         title: "Home",
-        url: "/NBhome",
+        url: "/North_Blade/NBhome",
     },
     {
         title: "Packages",
-        url: "/NBpackages",
+        url: "/North_Blade/NBpackages",
     },
     {
         title: "About Us",
-        url: "/NBabout",
+        url: "/North_Blade/NBabout",
     },
     {
         title: "Contact Us",
-        url: "/NBcontact",
+        url: "/North_Blade/NBcontact",
     },
     {
         title: "Login",
-        url: "/NBlogin",
+        url: "/North_Blade/NBlogin",
     }
 ]

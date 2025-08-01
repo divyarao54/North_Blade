@@ -10,7 +10,7 @@ const WeatherArea = () => {
             <div className="wa-text">
                 <div className="wa-title">Worried about the Weather?</div>
                 <div className="wa-desc">When you select a package and pick your dates for travel, our site will show you the weather forecast for each of the places to be visited side-by-side to help you make the best choice possible.</div>
-                <Link to='/NBpackages' style={{textDecoration : 'none'}}>
+                <Link to='/North_Blade/NBpackages' style={{textDecoration : 'none'}}>
                     <button className="wa-btn">SELECT PACKAGE TO SEE WEATHER</button>
                 </Link>
             </div>

@@ -35,16 +35,16 @@ function App() {
       ) : (   
         <Routes>
           <Route exact path="/" element={<Navigate to="/NBhome" />} />
-          <Route exact path="/North_Blade/" element={<Navigate to="/NBhome"/>}/>
-          <Route exact path="/NBhome" element={<LandingPage />} />
-          <Route exact path="/NBpackages" element={<CataloguePage />} />
-          <Route path="/NBpackages/:packageId" element={<DestinationPage/>}/>
-          <Route exact path="/NBabout" element={<AboutUs/>}/>
-          <Route exact path="/NBcontact" element={<ContactPage />} />
-          <Route exact path="/NBlogin" element={<LoginPage />} />
-          <Route exact path='/NBregister' element={<RegisterPage/>}/>
-          <Route path='/NBbooking/:packageId' element={<BookingPage/>}/>
-          <Route path='*' element={<ErrorPage/>}/>
+          <Route exact path="/North_Blade/" element={<LandingPage />}/>
+          <Route exact path="/North_Blade/NBhome" element={<Navigate to="/North_Blade"/>} />
+          <Route exact path="/North_Blade/NBpackages" element={<CataloguePage />} />
+          <Route path="/North_Blade/NBpackages/:packageId" element={<DestinationPage/>}/>
+          <Route exact path="/North_Blade/NBabout" element={<AboutUs/>}/>
+          <Route exact path="/North_Blade/NBcontact" element={<ContactPage />} />
+          <Route exact path="/North_Blade/NBlogin" element={<LoginPage />} />
+          <Route exact path='/North_Blade/NBregister' element={<RegisterPage/>}/>
+          <Route path='/North_Blade/NBbooking/:packageId' element={<BookingPage/>}/>
+          <Route path='/North_Blade/*' element={<ErrorPage/>}/>
         </Routes>
         )}
     </div>

@@ -46,7 +46,7 @@ const BookDetails = (props) => {
                         <div className="pack-lines"/>
                         <div className="book-cost">Total Cost: ${props.cost}</div>
                         <div className="btn-wrapper" style={{order: '4'}}>
-                            <Link to={`/booking/${props.id}`} style={{textDecoration:"none"}}>
+                            <Link to={`/North_Blade/booking/${props.id}`} style={{textDecoration:"none"}}>
                                 <button className="payment-btn">CONTINUE TO PAYMENT</button>
                             </Link>
                         </div>
