@@ -59,7 +59,11 @@ const LoginComponent = () => {
 
                         
                     </div>
+<<<<<<< HEAD
                     <Link className="register-page-link" to='/North_Blade/NBregister'>Don't have an account? Create One!</Link>
+=======
+                    <Link className="register-page-link" to='/NBregister'>Don't have an account? Create One!</Link>
+>>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
                 </form>
 
             </div>

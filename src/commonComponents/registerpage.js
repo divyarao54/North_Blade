@@ -92,7 +92,11 @@ const RegisterComponent = () => {
 
                         
                     </div>
+<<<<<<< HEAD
                     <Link className="login-page-link" to='/North_Blade/NBlogin'>Already have an account? Login!</Link>
+=======
+                    <Link className="login-page-link" to='/NBlogin'>Already have an account? Login!</Link>
+>>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
                 </form>
 
             </div>

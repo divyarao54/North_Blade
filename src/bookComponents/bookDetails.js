@@ -4,16 +4,25 @@ import cloudIcon from "../images/cloudIcon.png";
 import walletIcon from "../images/walletIcon.png";
 import sunnyIcon from "../images/sunnyIcon.png";
 import "./bookDetails.css";
+<<<<<<< HEAD
 //import VerticalLine from "../commonComponents/VerticalLine";
+=======
+>>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
 
 const BookDetails = (props) => {
     return(
         <div className="book-details-components">
+<<<<<<< HEAD
             
             <div className="book-sections">
                 
                 <div className="weather-box">
                     <div className="img-wrapper">                        
+=======
+            <div className="book-sections">
+                <div className="weather-box">
+                    <div className="img-wrapper">
+>>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
                         <img className="book-icon" alt="calenderIcon" src={calenderIcon} />
                     </div>
                     <div className="book-weather-text">
