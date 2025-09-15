@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.book-sections{
+    /* Frame 31 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    position: relative;
+    width: 782px;
+    height: 1823px;
+    left: 411px;
+    top: 954px;
+}
+
+.weather-box, .book-payment{
+        /* Group 633059 */
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    /* Inside auto layout */
+    /*flex: none;
+    order: 0;
+    flex-grow: 0;*/
+
+}
+
+
+.book-icon, .wallet-icon{
+    /* Frame 43 */
+
+    /* Auto layout */
+    /*display: flex;
+    flex-direction: row;
+    align-items: flex-start;*/
+    padding: 0px;
+    /*gap: 10px;*/
+    isolation: isolate;
+    /*position: relative;*/
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -190px;
+    /*top: 954px;*/
+
+
+}
+
+.cloud-icon{
+    /* Frame 46 */
+
+position: absolute;
+width: 164px;
+height: 164px;
+left: -190px;
+top: 818px;
+
+
+}
+
+.book-weather-text, .book-payment-text{
+    /* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 50px 50px 80px;
+gap: 50px;
+
+position: relative;
+width: auto;
+height: auto;
+/*left: 28px;
+top: 0px;*/
+align-content: stretch;
+flex-wrap: wrap;
+background: #F9F4EF;
+border-radius: 20px;
+
+}
+
+.book-weather-title{
+/* Select dates to check weather forecast */
+
+width: 517px;
+height: 128px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 64px;
+
+color: #484848;
+
+text-align: left;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.pack-lines{
+    /* Line 5 */
+
+width: 630px;
+height: 0px;
+
+border: 1px solid #333333;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.book-weather-section{
+    /* Frame 40 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 80px;
+
+width: 498px;
+/*height: 760px;*/
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.book-text-info-outer{
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 50px;
+
+}
+
+.book-text-info{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+/*align-items: flex-start;*/
+padding: 0px;
+gap: 85px;
+position: relative;
+/*width: 498px;
+height: 760px;
+*/
+
+}
+
+.book-text-date, .book-cost{
+        /* April 11, 2025 - Lucerne */
+
+width: 217px;
+height: 40px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+/* identical to box height, or 200% */
+
+color: #484848;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.book-text-temp{
+    /* 20°C */
+
+width: 45px;
+height: 40px;
+
+font-family: 'Sen', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* identical to box height, or 200% */
+
+color: #484848;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.book-weather-icon{
+    /* Mask group */
+
+width: 40px;
+height: 40px;
+filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+
+}
+
+.book-weather-icon-wrapper{
+    order: 3;
+}
+
+input{
+   /* Frame 44 */
+
+box-sizing: border-box;
+padding: 10px 20px;
+width: 234px;
+height: 60px;
+background: #FFFFFF;
+border: 1px solid #484848;
+border-radius: 10px;
+
+}
+
+.payment-btn{
+   /* Frame 2 */
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+
+width: 301px;
+height: 47px;
+border: none;
+background: linear-gradient(90deg, #FF9900 0%, #FF6B00 100%);
+box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+
+/* Continue to payment */
+
+/*width: 241px;
+height: 27px;
+*/
+font-family: 'Sen', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+order: 4;
+}
+
+
+@media screen and (max-width: 1140px) {
+    .book-icon,
+    .wallet-icon,
+    .cloud-icon{
+        display: none;
+    }
+
+    .book-sections{
+        left: 350px;
+    }
+
+    .weather-box{
+        /* Frame 4 */
+        padding: 30px 20px;
+        gap: 30px;
+        width: 340px;
+        height: auto;
+        position: absolute;
+        left: -50%;
+        top: 17%;
+    }
+
+    .book-weather-text{
+        width: 340px;
+    }
+
+    .book-weather-title{
+        /* Select dates to check weather forecast */
+        width: 300px;
+        height: 168px;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    .pack-lines{
+        width: 300px;
+    }
+
+    .book-text-info-outer{
+        /* Frame 40 */
+        padding: 0px;
+        gap: 10px;
+        width: 300px;
+        height: 510px;
+    }
+
+    .book-text-info{
+        width: 300px;
+        gap: 20%;
+    }
+
+    .book-text-date{
+        /* April 10, 2025 - Kathmandu */
+
+        width: 109px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+
+    }
+
+    .book-text-temp{
+        width: auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .book-weather-icon{
+        width: 30px;
+        height: 30px;;
+    }
+
+    .book-payment{
+        /* Frame 4 */
+        padding: 30px 20px;
+        gap: 30px;
+        width: 340px;
+        height: auto;
+        position: absolute;
+        left: -50%;
+        top: 80%;
+    }
+
+    .book-payment-text{
+        /* Frame 4 */
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 70px;
+        gap: 30px;
+        width: 340px;
+        height: 400px;
+    }
+/*
+    .book-weather-title{}
+
+    .book-cost{}
+
+    .payment-btn{}
+*/    
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.mv-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    margin-top: 156px;
+    gap: 50px;
+}
+
+.mv-line-first{
+    position: relative;
+    width: 35%;
+    height: 0px;
+    left: 0px;
+    border: 5px solid #C4C4C4;
+}
+
+.mv-title{
+    position: relative;
+    width: 22.083%;
+    height: auto;
+    line-height: 1;
+    top: -100px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal; 
+    font-weight: 900;
+    font-size: 64px;
+    color: #484848;
+}
+
+.mv-line-second{
+/* Line 3 */
+
+    position: relative;
+    width: 35%;
+    height: 0px;
+    left: 0;
+    top: 0;
+    border: 5px solid #C4C4C4
+}
+
+@media screen and (max-width: 1140px){
+
+    .mv-container{
+        gap: 30px;
+    }
+
+    .mv-title{
+/* Must-Visit */
+
+    width: 309px;
+    top: -60px;
+    height: 56px;
+    font-size: 35px;
+    line-height: 56px;
+    /* identical to box height */
+
+    color: #484848;
+
+
+    }
+}

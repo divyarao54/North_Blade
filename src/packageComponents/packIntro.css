@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.pack-text{
+        /* Frame 11 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 0;
+    text-align: left;
+    position: absolute;
+    width: 1134px;
+    height: 325px;
+    left: 153px;
+    top: 103px;
+
+
+}
+
+.pack-intro-title{
+        /* Nepal - The heart of the Himalayas */
+
+    width: auto;
+    height: 85px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 85px;
+
+    color: #484848;
+    margin-bottom: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.pack-desc{
+    /* Embark on an unforgettable journey to the Heart of the Himalayas - Nepal. Our Nepal tour Package offers an authentic experience, immersing you in the rich heritage and stunning landscapes of this enchanting country */
+
+    width: 1042px;
+    height: auto;
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+
+    color: #484848;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.pack-img{
+    /* Group 633065 */
+
+    position: absolute;
+    width: 1034.24px;
+    height: 478px;
+    left: 203px;
+    top: 474px;
+    margin-top: 20px;
+}
+
+.pack-img-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1140px){
+    .pack-img{
+        display: none;
+    }
+    .pack-img-mobile{
+        display: block;
+        position: absolute;
+        /* Group 633078 */
+        top: 574px;
+        left: 50px;
+        width: 341px;
+        height: 338px;
+
+    }
+
+    .pack-text{
+        /* Nepal - The heart of the Himalayas */
+
+        width: 340px;
+        height: auto;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .pack-intro-title{
+        /* Nepal - The heart of the Himalayas */
+
+        width: 340px;
+        height: 112px;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 56px;
+        letter-spacing: -0.01em;
+
+
+    }
+
+    .pack-desc{
+        /* Embark on an unforgettable journey to the Heart of the Himalayas - Nepal. Our Nepal tour Package offers an authentic experience, immersing you in the rich heritage and stunning landscapes of this enchanting country */
+
+/* Embark on an unforgettable journey to the Heart of the Himalayas - Nepal. Our Nepal tour Package offers an authentic experience, immersing you in the rich heritage and stunning landscapes of this enchanting country */
+
+        width: 320px;
+        height: auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+    }
+
+    .pack-desc:nth-of-type(3){
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.vertical-line-container {
+  position: absolute;
+  top: 100px;
+  left: 80px; /* Adjust based on layout */
+  width: 5px;
+  height: 89%;
+  pointer-events: none;
+}
+
+.vertical-line {
+  width: 5px;
+  background: linear-gradient(to bottom, #FF9900, #FF6B00);
+  /*background-color: #FF6B00;*/
+  border-radius: 1px;
+}

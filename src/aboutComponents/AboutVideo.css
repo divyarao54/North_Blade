@@ -1,0 +1,10 @@
+.video-intro{
+    position: absolute;
+    top: 8.5vh;
+    width: 100%;
+    /*z-index: 1;*/
+}
+.north-blade{
+    position: relative;
+    width: 100%;
+}
