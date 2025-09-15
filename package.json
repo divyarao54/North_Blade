@@ -7,10 +7,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "framer-motion": "^12.23.12",
-=======
->>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
     "gh-pages": "^6.3.0",
     "mongodb": "^6.8.0",
     "react": "^18.3.1",

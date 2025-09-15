@@ -16,7 +16,6 @@
 
 }
 
-<<<<<<< HEAD
 .vertical-timeline-line {
     position: absolute;
     left: 81px; /* adjust as needed for alignment */
@@ -27,8 +26,6 @@
     height: 100%; /* fallback in case animation fails */
 }
 
-=======
->>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
 .activity-box{
     display: flex;
     flex-direction: row;

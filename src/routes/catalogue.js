@@ -57,11 +57,7 @@ const CataloguePage = () =>{
                     destinations.map((destination, index) => {
                         
                         return(
-<<<<<<< HEAD
                             <div key={index} style={{ top: `${597 + (index)*679}px`, left: "33px", position: 'absolute' }}>                            
-=======
-                            <div key={index} style={{ top: `${597 + (index)*679}px`, left: "33px", position: 'absolute' }}>
->>>>>>> 62210fbed1374244228fd1900dd17cb8c8bbeeca
                                 <PackageList
                                     id={destination.id}
                                     img={destination.packimage}
